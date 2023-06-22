@@ -1,0 +1,309 @@
+@font-face {
+    font-family: TESLA;
+    src: url(TESLA.ttf);
+ }
+
+ @font-face {
+    font-family: textR;
+    src: url(Museo-Sans-100-Regular.ttf);
+ }
+
+.small {
+    font-size: 50pt;
+}
+.style-titre1 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);   
+    font-family: TESLA;
+    font-size:605%;
+    margin-top : 6px;
+}
+
+.fleet{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);   
+  font-family: TESLA;
+  font-size:255%;
+  margin-top: 100px;
+  text-align: center;
+}
+.style-titre2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: TESLA;
+    font-size: 350%;
+    margin-top : 26px;
+    cursor: pointer;
+}
+
+.style-titre2:hover {
+  background-color: rgb(0, 0, 0);
+  color: #dcdcdc;
+  cursor: pointer;
+}
+
+
+.style-titre3 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: textR;
+    font-size: 250%;
+    margin-top: 10px;
+}
+
+.style-titre3-Sub {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: Tesla;
+  font-size: 200%;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+
+.style-titre4 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: textR;
+}
+
+.style-text {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: textR;
+    font-size: 15px;
+}
+
+.style-text-footer {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: textR;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+
+
+.custom-button {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: textR;
+    font-size: 150%;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 270px;
+    align-items: center;
+    height: 32px;
+}
+  
+.custom-button:hover {
+    background-color: #dddddd;
+    transform: translateX(5px);
+}
+
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: textR;
+
+  }
+  
+  .form-input {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-input-type2 {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: textR;
+    width: 200px;
+    height: 40px;
+    background-color: #a82626;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 100px;
+    
+  }
+  
+  .form-button:hover {
+    background-color: #8e2e2e;
+  }
+  
+  /* CSS pour l'interface de notation */
+
+.notation-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notation-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.notation-form-group {
+  margin-bottom: 20px;
+}
+
+.notation-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.notation-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.notation-submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #a82626;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: textR;
+}
+
+.notation-submit-button:hover {
+  background-color: #8e2e2e;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin: 20px auto;
+  width: 400px;
+
+}
+
+.box2 {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  margin: 20px auto;
+  width: 700px;
+
+}
+
+.message {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: textR;
+}
+
+.message-box {
+  font-family: textR;
+}
+
+
+.message2 {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: textR;
+}
+
+.message-tab {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: textR;
+  text-align: center;
+}
+
+
+
+.style-titre1-type1,
+.style-titre3-type1,
+.style-titre4-type1,
+.form-group-type1,
+.form-label-type1,
+.form-input-type1,
+.form-button-type1 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+
+.style-titre3-type1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-family: TextR;
+}
+
+.form-input-type1 {
+  width: 100%;
+  padding: 5px;
+}
+
+.style-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.style-table th,
+.style-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.style-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.style-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+

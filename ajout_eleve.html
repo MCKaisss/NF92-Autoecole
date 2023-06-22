@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un élève</title>
+    <link rel="stylesheet" href="mes_styles.css">
+</head>
+<body>
+    <h1 class="style-titre1">THE AUTO ECOLE</h1>
+    <div class="box">
+        
+        <h2 class="style-titre3-type1">Ajout Elève</h2>
+
+        <form class="form-container" action="ajouter_eleve.php" method="POST">
+            <div class="form-group">
+                <label class="form-label" for="nom">Nom:</label>
+                <input class="form-input form-input-type1" type="text" name="nom" id="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="prenom">Prénom:</label>
+                <input class="form-input form-input-type1" type="text" name="prenom" id="prenom" required >
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="dateNaiss">Date de Naissance:</label>
+                <input class="form-input form-input-type1" type="date" name="dateNaiss" id="dateNaiss" required>
+            </div>
+
+            <input class="form-button" type="submit" value="Enregistrer">
+        </form>
+    </div>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thème</title>
+    <link rel="stylesheet" href="mes_styles.css">
+</head>
+<body>
+    <h1 class="style-titre1">THE AUTO ECOLE</h1>
+
+    <div class="box">
+        <h2 class="style-titre3-type1">Ajout Thème</h2>
+
+        <form action="ajouter_theme.php"class="form-container" method="POST">
+            <div class="form-group">
+                <label class="form-label" for="tnom">Nom:</label>
+                <input class="form-input form-input-type1" type="text" name="tnom" id="tnom" required>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="description">Description:</label>
+                <input class="form-input form-input-type1" type="text" name="description" id="description" required>
+            </div>
+
+            <input class="form-button" type="submit" value="Enregistrer">
+        </form>
+    </div>
+    <footer>
+        <p class="style-text-footer">© 2023 The Auto Ecole. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
